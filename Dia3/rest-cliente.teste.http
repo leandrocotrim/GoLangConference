@@ -1,0 +1,19 @@
+### Home
+GET http://localhost:8080
+
+### Users
+GET http://localhost:8080/users
+
+### User
+GET http://localhost:8080/users/1
+
+### User
+POST  http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "Name":  "Leandro Cotrim",
+  "Email": "cotrim.leandro@gmail.com"
+}
+
+### 
